@@ -27,7 +27,7 @@ namespace ProjetTaghtyMobile.Droid
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);//steed
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);//steedddd
         }
     }
 }
