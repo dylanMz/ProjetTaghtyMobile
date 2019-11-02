@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProjetTaghtyMobile.Views.Accueil" BackgroundColor="#989898">
+    <ContentView.Content>
+        <RelativeLayout>
+            <Label Text="Julian tapette" FontAttributes="Bold" Margin="100,90,0,0" />
+            <Editor Margin="100,500,0,0" />
+            <Button Text="Valider" FontSize="Large" FontAttributes="Bold" BorderColor="#A81818" BackgroundColor="#874747" Margin="20,700,20,80" Padding="100,0,160,0" />
+        </RelativeLayout>
+    
+
+    </ContentView.Content>
+</ContentView>

@@ -23,6 +23,7 @@
                             <Label Text="{Binding Title}" d:Text="{Binding .}" FontSize="20"/>
                         </Grid>
                     </ViewCell>
+
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
