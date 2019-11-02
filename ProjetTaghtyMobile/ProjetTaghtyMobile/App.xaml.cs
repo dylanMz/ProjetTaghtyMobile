@@ -14,7 +14,11 @@ namespace ProjetTaghtyMobile
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
+
+            
             MainPage = new MainPage();
+            //accueil = new Accueil();
+
         }
 
         protected override void OnStart()
