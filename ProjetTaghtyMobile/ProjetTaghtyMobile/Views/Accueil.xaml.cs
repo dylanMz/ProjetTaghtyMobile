@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ProjetTaghtyMobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+
     public partial class Accueil : global::Xamarin.Forms.ContentView
     {
         public Accueil()
