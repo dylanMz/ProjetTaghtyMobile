@@ -16,7 +16,7 @@ namespace ProjetTaghtyMobile
             DependencyService.Register<MockDataStore>();
 
             
-            MainPage = new Accueil();
+            MainPage = new test();
             //accueil = new Accueil();
 
         }

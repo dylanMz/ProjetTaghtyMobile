@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ProjetTaghtyMobile.Views.Accueil" BackgroundColor="#C8BCA1">
-    <ContentView.Content>
+             x:Class="ProjetTaghtyMobile.Views.test" BackgroundColor="#C3C3C3">
+    <ContentPage.Content>
         <RelativeLayout>
             <Label Text="Medieval Gestion" FontAttributes="Bold" Margin="350,90,100,0" HorizontalTextAlignment="Start" FontSize="Title" TextColor="#356EC6" />
             <Editor Margin="400,200,0,0" BackgroundColor="#878787" Keyboard="Email" />
-            <Button Text="Valider" FontSize="Large" FontAttributes="Bold" BorderColor="#A81818" BackgroundColor="#874747" Margin="250,300,20,80" Padding="160,0" />
+            <Button Text="Valider" FontSize="Large" FontAttributes="Bold" BorderColor="#A81818" BackgroundColor="#874747" Margin="250,300,20,60" Padding="160,0" />
         </RelativeLayout>
-    
-
-    </ContentView.Content>
-</ContentView>
+    </ContentPage.Content>
+</ContentPage>
